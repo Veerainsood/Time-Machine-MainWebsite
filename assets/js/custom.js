@@ -15,8 +15,8 @@
 	});
 	
 	$('.filters ul li').click(function(){
-        $('.filters ul li').removeClass('active');
-        $(this).addClass('active');
+        // $('.filters ul li').removeClass('active');
+        // $(this).addClass('active');
           
           var data = $(this).attr('data-filter');
           $grid.isotope({
@@ -187,9 +187,9 @@
 	        $(document).off("scroll");
 	        
 	        $('.scroll-to-section a').each(function () {
-	            $(this).removeClass('active');
+	            // $(this).removeClass('active');
 	        })
-	        $(this).addClass('active');
+	        // $(this).addClass('active');
 	      
 	        var target = this.hash,
 	        menu = target;
@@ -209,11 +209,11 @@
 	        var currLink = $(this);
 	        var refElement = $(currLink.attr("href"));
 	        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-	            $('.nav ul li a').removeClass("active");
-	            currLink.addClass("active");
+	            // $('.nav ul li a').removeClass("active");
+	            // currLink.addClass("active");
 	        }
 	        else{
-	            currLink.removeClass("active");
+	            // currLink.removeClass("active");
 	        }
 	    });
 	}

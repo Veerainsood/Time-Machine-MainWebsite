@@ -337,7 +337,16 @@ table {
     caption-side: bottom;
     border-collapse: collapse
 }
-
+#MainId1{
+    padding-top: 150px;
+    display: block;
+}
+caption {
+    padding-top: 5.5rem;
+    padding-bottom: .5rem;
+    color: #6c757d;
+    text-align: left
+}
 caption {
     padding-top: 5.5rem;
     padding-bottom: .5rem;
